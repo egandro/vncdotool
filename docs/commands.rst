@@ -46,3 +46,11 @@ rexpect FILENAME.PNG X Y FUZZ
 type STRING
 --------------
 
+let <identifer> = STRING
+--------------
+
+eval EXPRESSION (e.g. eval 1+3, eval $X + 3)
+--------------
+
+let <baseidentifer> = OCR STRING (this will create $BASEIDENTIFYER.X and $BASEIDENTIFYER.Y for the first tesseract hit)
+--------------
